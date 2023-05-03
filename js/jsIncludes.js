@@ -39,6 +39,14 @@ fetch('../includes/section04.html')
         document.getElementById('Section04').innerHTML = data;
          
     });
+    //AGREGANDO LA SECTION 5
+fetch('../includes/section05.html')
+.then(response => response.text())
+.then(data => {
+    
+    document.getElementById('Section05').innerHTML = data;
+     
+});
 //AGREGANDO LA SECTION 6
 fetch('../includes/section06.html')
     .then(response => response.text())
