@@ -61,6 +61,8 @@
 .container-card .card-item:hover {
   bottom: 20px;
   background-color: #0c5adb;
+  top: -5px;
+    transition: 0.5s;
 }
 .container-card .card-item:hover h2 {
   color: white;
