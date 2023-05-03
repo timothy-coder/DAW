@@ -16,6 +16,7 @@
 .bar.bar-big {
     height: 5px;
     width: 90px;
+    left: 4%;
     background: #aec6ef;
     margin: 20px auto;
     position: relative;

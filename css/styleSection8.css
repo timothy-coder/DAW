@@ -3,10 +3,37 @@
     position: relative;
     bottom: 10%;
     left: 50%;
-    height: 400px;
+    height: 780px;
     background-color: gray;
     transform: translate(-50%, -27%);
 }
+
+
+#rayitaS8{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: -60px;
+}
+
+#rayitaS8 span{
+  background: #bfcadc;
+  height: 5px;
+  width: 25px;
+  margin: 0 3px;
+  border-radius: 50px;
+  transition: .5s;
+  cursor: pointer;
+}
+  
+#rayitaS8 span.activate{
+  width: 35px;
+  background: #0C5ADB;
+}
+
+
 .titulo08{
   color:#fff;
   margin: 0px auto;
@@ -40,6 +67,7 @@
   font-weight: 700;
 }
 .container-card-8 {
+  margin-top: -50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
