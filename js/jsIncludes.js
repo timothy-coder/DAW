@@ -96,3 +96,11 @@ fetch('../includes/sectionsu.html')
      
 });
 
+//AGREGANDO EL FOOTER
+fetch('../includes/footer.html')
+    .then(response => response.text())
+    .then(data => {
+        
+        document.getElementById('footerS10').innerHTML = data;
+         
+    });
