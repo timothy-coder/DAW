@@ -201,13 +201,12 @@
 .container-card-8 .card-item-2-8 .card-user-8 .estrellas-8 {
   border: 0px solid black;
   height: 30px;
-
   margin: 10px 0px 0px 20px;
 }
 .container-card-8 .card-item-2-8 .card-user-8 .estrellas-8 img {
   width: 20px;
   height: 20px;
-  filter: contrast(30%);
+  filter: contrast(100%);
   
 }
 .container-card-8 .card-item-2-8 .card-user-8 .name-user-8 {
