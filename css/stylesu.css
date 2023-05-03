@@ -18,15 +18,15 @@
     padding: 0px;
     border-right: 1px solid white;
 }
-.input{
+.email-su{
     font-size: 14px;
     height: 65px;
     padding: 5px 25px;
     position: relative;
-    width: 100%;
+    border-radius: 15px;
     background: #F6F6FC;
 }
-.button{
+.su-sub{
     transition: all 0.4s ease 0s;
     border: medium none;
     border-radius: 15px;

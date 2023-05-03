@@ -1,0 +1,282 @@
+#fondoSectionS10 {
+    background-image: url('../img/fondoFooter.jpg');
+    background-repeat: no-repeat;
+    background-size: 200%;
+    padding-top: 70px;
+}
+
+#footerContainerS10 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#centradorS10 {
+    width: 1170px;
+    height: 466.6px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#centradoFinalS10 {
+    margin: 0px 0px 0px;
+    padding: 16px 0px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+#list1-S10 {
+    width: 298.5px;
+    height: 300.8px;
+}
+
+.altoPagS10 {
+
+    padding: 10px;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contenImg {
+    width: 100%;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-image: url('../img/logo-blanco.png');
+}
+
+#contentText {
+    display: flex;
+    align-items: center;
+    float: left;
+    width: 100%;
+    height: 131px;
+    margin: 0px 0px 20px;
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+}
+
+#contenH2 {
+    font-size: 13.4px;
+    font-family: 'Muli', sans-serif;
+    margin-bottom: 20px;
+}
+
+#contenIcon {
+    height: 46.4px;
+}
+
+#contenIcon a {
+    display: inline-block;
+    align-items: center;
+    width: 37.4px;
+    height: 37.4px;
+    background-color: rgb(22, 113, 238);
+}
+
+#contenIcon a i {
+    color: white;
+    width: 17px;
+    height: 17px;
+}
+
+
+#list2-S10 {
+    width: 205.48px;
+    height: 300.8px;
+}
+
+#list2-S10 h2,
+#list3-S10 h2,
+#list4-S10 h2 {
+    font-size: 22px;
+    font-family: 'Muli', sans-serif;
+}
+
+#list2-S10 ul {
+    margin-top: 20px;
+}
+
+#list2-S10 ul li {
+    padding: 0px 0px 9px;
+    margin: 9px 0px 0px;
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+}
+
+#list2-S10 ul li span,
+#list2-S10 ul li i {
+    color: white;
+}
+
+
+ul {
+    list-style: none;
+}
+
+#list3-S10 {
+    width: 315.51px;
+    height: 300.8px;
+}
+
+#list4-S10 {
+    width: 287.5px;
+    height: 300.8px;
+}
+
+
+
+
+
+
+
+.segunDivS10{
+    display: flex;
+    margin-top: 20px;
+}
+
+.separadorS10{
+    padding-left: 20px;
+}
+
+
+.contenL{
+    margin: 0px 0px 16px;
+}
+
+.contenL a {
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+    color: white;
+}
+
+.contenL span {
+    font-size: 15px;
+    font-family: 'Muli', sans-serif;
+    color: #9EB3EF;
+}
+
+#contenido1L3S10 ul{
+    margin-top: 20px;
+    font-family: 'Muli', sans-serif;
+}
+
+
+#contenido1L3S10 ul li{
+    display: inline-block;
+}
+
+
+#contenido2L3S10 {
+    height: 97.8px;
+    margin: 0px 0px 16px;
+    align-items: center;
+}
+
+
+#imgFoo1 {
+    background-image: url('../img/imgFoo1.png');
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    padding: 0 13.7px;
+}
+
+#imgFoo2 {
+    background-image: url('../img/imgFoo2.png');
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    padding: 0 17.58px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#list4-S10 a {
+    display: inline-block;
+    font-size: 17px;
+    width: 38px;
+    height: 38px;
+    line-height: 40px;
+    background: #3D65DE;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+}
+
+#list4-S10 li div {
+    display: inline-block;
+    align-items: center;
+}
+
+#ulUnicoS10 h2 {
+    font-size: 20px;
+    font-family: 'Muli', sans-serif;
+    margin: 3px 0px 3px;
+
+}
+
+#ulUnicoS10 p {
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+    color: #9EB3EF;
+    margin: 0;
+}
+
+#ulUnicoS10 li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#primerLiS10 {
+    margin-top: 20px;
+}
+
+.parteTextoS10 {
+    margin-left: 10px;
+}
+
+.zonaFinalS10 {
+    width: 585px;
+    padding: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid rgb(69, 104, 220);
+}
+
+.zonaFinalS10 p{
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+
+}
+
+.zonaFinalS10 ul li{
+    display: inline-block;
+    margin: 0px 9px;
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+}
+
+#zonaF2{
+    justify-content: right;
+}
