@@ -71,3 +71,12 @@ fetch('../includes/section09.html')
         document.getElementById('Section09').innerHTML = data;
          
     });
+    //AGREGANDO LA SECTION 10
+fetch('../includes/section10.html')
+    .then(response => response.text())
+    .then(data => {
+        
+        document.getElementById('Section10').innerHTML = data;
+         
+    });
+

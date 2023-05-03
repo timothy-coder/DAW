@@ -1,0 +1,188 @@
+#section05{
+  background-color:rgb(236, 245, 252);
+  width: 100%;
+  height: 882.19px;
+  padding: 75px 0px 120px;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#sectionDentroS5{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#ZonaTituloS5 h5 {
+  margin: 0px 0px 15px;
+  font-size: 16px;
+  font-family: 'Muli', sans-serif;
+  color: #0c5adb;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#ZonaTituloS5 h3{
+  font-size: 39px;
+  margin-bottom: 0px;
+  text-transform: capitalize;
+  margin-top: 0px;
+  line-height: 1.2;
+  font-weight: 800;
+}
+
+.Zona5 {
+  width: 585px;
+  height: 160.6px;
+  padding: 10px;
+}
+
+#zonaBotonS5{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#zonaBotonS5 div{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  
+}
+
+#zonaBotonS5 a{
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  background-color: rgb(12, 90, 219);
+  padding: 17px 34px;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 4px;
+  
+}
+
+#zonaBotonS5 a:hover{
+  background-color: rgb(0, 35, 122);
+}
+
+#zonaBotonS5 i{
+  margin-left: 5px;
+}
+
+#ZonaTituloS5 div{
+  margin: 18px 0 35px;
+  height: 5px;
+  width: 90px;
+  background: #aec6ef;
+  position: relative;
+  border-radius: 30px;
+}
+
+#ZonaTituloS5 div::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -2.7px;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: #0c5adb;
+
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-name: MOVE-BG;
+  
+}
+
+/*animacion para mover la bolita*/
+@keyframes MOVE-BG {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(85px);
+  }
+}
+
+#CentrarContenidoS5 div{
+  background-color: white;
+  margin: 0px 15px;
+}
+
+#PartesS5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+#CentrarContenidoS5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1190px;
+}
+
+.D1S5 img {
+  width: 100%;
+  height: auto;
+}
+
+.D1S5 {
+  width: 351.33px;
+  height: 404.61px;
+}
+
+.D2S5 {
+  padding: 25px 30px;
+  height: 91.38px;
+
+}
+
+.D2S5 a {
+  font-size: 15px;
+  text-decoration: none;
+  font-family: 'Muli',sans-serif;
+  color: black;
+  float: left;
+}
+
+#texto21 {
+  font-size: 21px;
+  margin: 10px 0px;
+}
+
+.D3S5 a {
+  margin: 0px 24px 0px 0px;
+}
+
+#rayitaS5{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: -60px;
+}
+
+#rayitaS5 span{
+  background: #bfcadc;
+  height: 5px;
+  width: 25px;
+  margin: 0 3px;
+  border-radius: 50px;
+  transition: .5s;
+  cursor: pointer;
+}
+  
+#rayitaS5 span.activate{
+  width: 35px;
+  background: #0C5ADB;
+}
