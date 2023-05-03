@@ -7,6 +7,38 @@
     background-color: gray;
     transform: translate(-50%, -27%);
 }
+.titulo08{
+  color:#fff;
+  margin: 0px auto;
+  text-align: center;
+  position: relative;
+  z-index: 99;
+  margin-bottom: 45px;
+}
+.primer-8 {
+  padding-top: 80px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 5px;
+  margin: 0 0 15px;
+}
+.segundo-8{
+  font-size: 30px;
+  margin-bottom: 0px;
+  text-transform: capitalize;
+  margin-top: 0;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.tercero-8{
+  font-size: 30px;
+  margin-bottom: 0px;
+  text-transform: capitalize;
+  margin-top: 0;
+  line-height: 1.2;
+  font-weight: 700;
+}
 .container-card-8 {
   display: flex;
   flex-wrap: wrap;
