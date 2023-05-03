@@ -87,4 +87,12 @@ fetch('../includes/section10.html')
         document.getElementById('Section10').innerHTML = data;
          
     });
+    //AGREGANDO LA SECTION subscribe
+fetch('../includes/sectionsu.html')
+.then(response => response.text())
+.then(data => {
+    
+    document.getElementById('Sectionsu').innerHTML = data;
+     
+});
 
