@@ -1,0 +1,131 @@
+ /* Parte 7 */
+ .contenedor-general {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: 100%;
+    left: 25%;
+    transform: translate(-50%, 0%);
+  }
+  #division-1 {
+    color: #0C5ADB;
+  }
+  #division-1 h2 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #0C5ADB;
+    letter-spacing: 0.28em;
+
+  }
+  
+  #division-2 {
+    color: #000000;
+  }
+
+  #division-2 h2 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 43px;
+    color: #000000;
+    padding-top: 1px;
+    margin-top: 1px;
+  }
+  .space {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    margin-left: 9%;
+  }
+  .bar {
+    width: 10%;
+    height: 6px;
+    border-radius: 5px;
+    background-color: #9dc2ff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -30px;
+  }
+  .circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #0C5ADB;
+    position: absolute;
+    margin-bottom: 10%;
+    left: 1px;
+    animation: moveCircle 2s linear infinite;
+  }
+  @keyframes moveCircle {
+    0% {
+      left: -10px;
+    }
+    100% {
+      left: calc(80% + 10px);
+    }
+  }
+  .table {
+    display: table;
+    width: 120%;
+    border-collapse: collapse;
+    position: relative;
+  }
+  .column {
+    display: table-cell;
+    padding: 10px;
+  }
+  .tit1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #313131;
+  }
+  .text{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    color: #5e5e5e;
+  }
+  .circulo{
+    margin-left: 35%;
+    margin-bottom: 10%;
+  }
+  .circulo-grande {
+    width: 88px;
+    height: 88px;
+    background-color: #a8c9ff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circulo-mediano {
+    width: 68px;
+    height: 68px;
+    background-color: #6fa4f9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circulo-pequeno {
+    width: 48px;
+    height: 48px;
+    background-color: #0C5ADB;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .numero {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  

@@ -1,0 +1,105 @@
+/* Parte 3 */
+.container {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  translate: (0%,0%);
+  margin-top: -200px;
+}
+.main-container {
+  margin-top: 100px;
+}
+
+
+.left-division {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 50px; /* Ajusta el margen superior según prefieras */
+}
+
+.left-division img {
+  max-width: 100%;
+  max-height: 400px; /* Limitamos la altura de la imagen */
+}
+
+.image-container {
+  position: relative;
+  display: inline-block; /* para ajustar el tamaño al contenido */
+}
+
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3em; /* ajusta el tamaño del icono según tus necesidades */
+  color: white; /* ajusta el color según el fondo de la imagen */
+}
+
+.right-division {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start; /* Agregamos esta propiedad */
+  align-items: center;
+}
+
+.table1 {
+  display: table;
+  width: 100%;
+  max-width: 400px;
+  border-collapse: collapse;
+}
+
+.row1 {
+  display: table-row;
+}
+
+.column1 {
+  display: table-cell;
+  padding: 10px;
+
+}
+
+.cell {
+  text-align: center;
+}
+
+.blue-button {
+  background-color: #0C5ADB;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+.num1 {
+  color: #0C5ADB;
+  font-size: 105px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 80px;
+  margin-bottom: 0px;
+}
+.tit{
+  font-size: 26px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 100px;
+}
+.parr1 {
+  font-family: Arial;
+  font-size: 17px;
+  margin-top: -30px;
+  margin-bottom: 2px;
+}
+.parr2 {
+  font-family: Arial;
+  font-size: 17px;
+  margin-top: 10px;
+  margin-bottom: 4%; 
+}
+
+
+
+
+
+
