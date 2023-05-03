@@ -1,12 +1,13 @@
-.section2{
+.section8{
     margin: 0 auto;
     position: relative;
     bottom: 10%;
     left: 50%;
     height: 400px;
+    background-color: gray;
     transform: translate(-50%, -27%);
 }
-.container-card {
+.container-card-8 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -14,7 +15,7 @@
   width: 100vw;
   height: 500px;
 }
-.container-card .card-item {
+.container-card-8 .card-item-8 {
   display: flex;
   flex-direction: column;
   border: 0px solid black;
@@ -28,7 +29,7 @@
   transition: all 0.5s ease;
   background-color: white;
 }
-.container-card .card-item .img-cont {
+.container-card-8 .card-item-8 .img-cont-8 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,27 +39,27 @@
   background-color: #EDF4FC;
   border-radius: 50%;
 }
-.container-card .card-item img {
+.container-card-8 .card-item-8 img {
   width: 45px;
   height: 45px;
   border: 0px solid black;
   
 }
-.container-card .card-item h2 {
+.container-card-8 .card-item-8 h2 {
   font-family: "Montserrat", sans-serif;
   margin: 30px 0px 10px 0px;
 }
-.container-card .card-item p {
+.container-card-8 .card-item-8 p {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   margin: 10px 0px 40px 0px;
 }
-.container-card .card-item a {
+.container-card-8 .card-item-8 a {
   font-family: "Montserrat", sans-serif;
   color: black;
   text-decoration: none;
 }
-.container-card .card-item:hover {
+.container-card-8 .card-item-8:hover {
   bottom: 20px;
   background-color: #0c5adb;
   color: white;
@@ -66,16 +67,16 @@
   transition: 0.5s;
 }
 
-.container-card .active {
+.container-card-8 .active {
   background-color: #0c5adb;
   color: white;
 }
-.container-card .active a {
+.container-card-8 .active-8 a {
   font-family: "Montserrat", sans-serif;
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
-.container-card .card-item-2 {
+.container-card-8 .card-item-2-8 {
   display: flex;
   flex-direction: column;
   border: 0px solid black;
@@ -85,7 +86,7 @@
   margin: 20px;
   align-items: center;
 }
-.container-card .card-item-2 .card-text {
+.container-card-8 .card-item-2-8 .card-text-8 {
   display: flex;
   align-items: center;
   border: 0px solid black;
@@ -96,15 +97,15 @@
   margin: 30px 0px 0px 0px;
   border-radius: 5px;
 }
-.container-card .card-item-2 .card-text p {
+.container-card-8 .card-item-2-8 .card-text-8 p {
   width: 100%;
   font-family: "Montserrat", sans-serif;
   font-size: 12pt;
 }
-.container-card .card-item-2 .acc {
+.container-card-8 .card-item-2-8 .acc-8 {
   width: 100%;
 }
-.container-card .card-item-2 .acc .triangulo {
+.container-card-8 .card-item-2-8 .acc-8 .triangulo-8 {
   border: none;
   position: relative;
   width: 30px;
@@ -115,14 +116,14 @@
   bottom: 16px;
   left: 12px;
 }
-.container-card .card-item-2 .card-user {
+.container-card-8 .card-item-2-8 .card-user-8 {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   height: 100px;
   border: 0px solid black;
 }
-.container-card .card-item-2 .card-user .foto-user {
+.container-card-8 .card-item-2-8 .card-user-8 .foto-user-8 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -131,36 +132,36 @@
   height: 100px;
   border-radius: 50%;
 }
-.container-card .card-item-2 .card-user .foto-user img {
+.container-card-8 .card-item-2-8 .card-user-8 .foto-user-8 img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
 }
-.container-card .card-item-2 .card-user .estrellas {
+.container-card-8 .card-item-2-8 .card-user-8 .estrellas-8 {
   border: 0px solid black;
   height: 30px;
   margin: 10px 0px 0px 20px;
 }
-.container-card .card-item-2 .card-user .estrellas img {
+.container-card-8 .card-item-2-8 .card-user-8 .estrellas-8 img {
   width: 20px;
   height: 20px;
   filter: contrast(30%);
 }
-.container-card .card-item-2 .card-user .name-user {
+.container-card-8 .card-item-2-8 .card-user-8 .name-user-8 {
   position: relative;
   border: 0px solid black;
   width: 230px;
   bottom: 60px;
   left: 120px;
 }
-.container-card .card-item-2 .card-user .name-user h3 {
+.container-card-8 .card-item-2-8 .card-user-8 .name-user-8 h3 {
   margin: 10px 0px 10px 0px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   color: white;
   font-size: 16pt;
 }
-.container-card .card-item-2 .card-user .name-user h4 {
+.container-card-8 .card-item-2-8 .card-user-8 .name-user-8 h4 {
   margin: 0px;
   font-family: "Montserrat", sans-serif;
   color: white;
