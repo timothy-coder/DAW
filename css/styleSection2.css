@@ -61,18 +61,11 @@
 .container-card .card-item:hover {
   bottom: 20px;
   background-color: #0c5adb;
-  top: -5px;
-    transition: 0.5s;
-}
-.container-card .card-item:hover h2 {
   color: white;
+  top: -10px;
+  transition: 0.5s;
 }
-.container-card .card-item:hover p {
-  color: white;
-}
-.container-card .card-item:hover a {
-  color: white;
-}
+
 .container-card .active {
   background-color: #0c5adb;
   color: white;
